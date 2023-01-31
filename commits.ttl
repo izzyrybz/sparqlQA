@@ -1,0 +1,13 @@
+@prefix ns1: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/65970ecb019eef5a3b2f709180113213e6000a78> a ns1:Commit ;
+    ns1:author "izzyrybz " ;
+    ns1:date "2023-01-27T12:12:22+01:00"^^xsd:dateTime ;
+    ns1:description " Initial commit" .
+
+<http://example.org/7cbfc32cac2814864f6d6bfcf96a058d4f990f78> a ns1:Commit ;
+    ns1:author "izzyrybz " ;
+    ns1:date "2023-01-27T12:16:07+01:00"^^xsd:dateTime ;
+    ns1:description " Create main.py" .
+
