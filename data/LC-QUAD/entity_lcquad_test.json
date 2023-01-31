@@ -1,0 +1,220 @@
+[
+    {
+        "entities": [
+            {
+                "surface": [
+                    20,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Sam_Loyd"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    33,
+                    13
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.95652174949646,
+                        "uri": "http://dbpedia.org/resource/Eric_Schiller"
+                    }
+                ]
+            }
+        ],
+        "question": "For which games are Sam Loyd and Eric Schiller both famous?",
+        "relations": [
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/fam"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/knownFor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/knownFor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    10,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    10,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/games"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    40,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/The_Simpsons"
+                    }
+                ]
+            }
+        ],
+        "question": "Who is the creator and developer of The Simpsons?",
+        "relations": [
+            {
+                "surface": [
+                    11,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/creators"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    11,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/creator"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    11,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/creator"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/designer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/developer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/product"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/designer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/product"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/developer"
+                    }
+                ]
+            }
+        ]
+    }
+]

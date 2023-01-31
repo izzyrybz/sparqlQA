@@ -1,0 +1,8 @@
+director ?u_0 #ent
+founder ?u_0 John_Forbes_(British_Army_officer)
+type ?u_0 City
+founder type ?u_0 City John_Forbes_(British_Army_officer)
+riverMouth ?u_0 #ent
+type ?u_0 River
+riverMouth type ?u_0 River Dead_Sea
+allegiance #ent ?u_0

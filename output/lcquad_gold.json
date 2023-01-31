@@ -1,0 +1,206 @@
+[
+    {
+        "answer": "correct",
+        "features": [
+            "single",
+            "count",
+            "multivar"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "?u_0 <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Stanley_Kubrick>",
+                "target_var": "?u_0"
+            }
+        ],
+        "id": "1501",
+        "query": "SELECT COUNT(DISTINCT ?uri) WHERE {?uri <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Stanley_Kubrick>  . }",
+        "question": "How many movies did Stanley Kubrick direct?"
+    },
+    {
+        "answer": "correct",
+        "features": [
+            "compound",
+            "singlevar"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "?u_0 <http://dbpedia.org/ontology/founder> <http://dbpedia.org/resource/John_Forbes_(British_Army_officer)>",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "?u_0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": true,
+                "query": "?u_0 <http://dbpedia.org/ontology/founder> <http://dbpedia.org/resource/John_Forbes_(British_Army_officer)> .?u_0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>",
+                "target_var": "?u_0"
+            }
+        ],
+        "id": "2586",
+        "query": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/founder> <http://dbpedia.org/resource/John_Forbes_(British_Army_officer)>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>}",
+        "question": "Which city's foundeer is John Forbes?"
+    },
+    {
+        "answer": "correct",
+        "features": [
+            "compound",
+            "singlevar"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "?u_0 <http://dbpedia.org/ontology/riverMouth> <http://dbpedia.org/resource/Dead_Sea>",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "?u_0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": true,
+                "query": "?u_0 <http://dbpedia.org/ontology/riverMouth> <http://dbpedia.org/resource/Dead_Sea> .?u_0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>",
+                "target_var": "?u_0"
+            }
+        ],
+        "id": "2653",
+        "query": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/riverMouth> <http://dbpedia.org/resource/Dead_Sea>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}",
+        "question": "What is the river whose mouth is in deadsea?"
+    },
+    {
+        "answer": "correct",
+        "features": [
+            "single",
+            "singlevar"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/John_Kotelawala> <http://dbpedia.org/property/allegiance> ?u_0",
+                "target_var": "?u_0"
+            }
+        ],
+        "id": "1055",
+        "query": " SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/John_Kotelawala> <http://dbpedia.org/property/allegiance> ?uri } ",
+        "question": "What is the allegiance of John Kotelawala ?"
+    },
+    {
+        "answer": "-no_answer",
+        "features": [
+            "compound",
+            "multivar"
+        ],
+        "generated_queries": [],
+        "id": "1701",
+        "query": " SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} ",
+        "question": "Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'"
+    },
+    {
+        "answer": "-without_path",
+        "features": [
+            "compound",
+            "multivar"
+        ],
+        "generated_queries": [],
+        "id": "3293",
+        "query": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x<http://www.w3.org/1999/02/22-rdf-syntax-ns#type><http://dbpedia.org/ontology/PoliticalParty>}",
+        "question": "Which sects people are part of local political parties which fall under the International Muslim Brotherhood?"
+    },
+    {
+        "answer": "-no_answer",
+        "features": [
+            "compound",
+            "multivar"
+        ],
+        "generated_queries": [],
+        "id": "2161",
+        "query": " SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} ",
+        "question": "List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?"
+    },
+    {
+        "answer": "correct",
+        "features": [
+            "compound",
+            "multivar"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": false,
+                "query": "?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1 .?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_1"
+            },
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1 .?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1",
+                "target_var": "?u_1"
+            }
+        ],
+        "id": "1136",
+        "query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }",
+        "question": "For which games are Sam Loyd and Eric Schiller both famous?"
+    }
+]

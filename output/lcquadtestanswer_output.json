@@ -1,0 +1,35 @@
+[
+    {
+        "answer": "correct",
+        "features": [
+            "multivar",
+            "compound"
+        ],
+        "generated_queries": [
+            {
+                "correct": true,
+                "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?u_0 .<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?u_0",
+                "target_var": "?u_0"
+            },
+            {
+                "correct": false,
+                "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?u_0",
+                "target_var": "?u_0"
+            }
+        ],
+        "id": "1540",
+        "precision": 0.6666666666666666,
+        "query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?uri. <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?uri. }",
+        "question": "Who is the creator and developer of The Simpsons?",
+        "question_type": [
+            0
+        ],
+        "recall": 1.0,
+        "type_confidence": 0.98
+    }
+]

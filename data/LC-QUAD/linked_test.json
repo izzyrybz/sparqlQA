@@ -1,0 +1,7 @@
+[
+  {"id": "1540", "question": "Who is the creator and developer of The Simpsons?",
+    "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?uri. <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?uri. }",
+     "answers": {"head": {"link": [], "vars": ["uri"]}, "results": {"distinct": false, "ordered": true, "bindings":
+       [
+       {"uri": {"type": "uri", "value": "http://dbpedia.org/resource/Matt_Groening"}}
+       ]}}}]

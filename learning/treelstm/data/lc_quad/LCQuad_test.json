@@ -1,0 +1,21 @@
+[{"answer": "correct", "features": ["compound", "multivar"], "generated_queries":
+[{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_0"},
+{"correct": false, "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_1"},
+{"correct": false, "query": "?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_0"},
+{"correct": false, "query": "?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_0"},
+{"correct": false, "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0 .?u_1 <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_0"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_0", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_1 .?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_1"},
+{"correct": false, "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_1"},
+{"correct": true, "query": "<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?u_0 .<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_0"},
+{"correct": false, "query": "<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?u_1 .?u_0 <http://dbpedia.org/ontology/knownFor> ?u_1", "target_var": "?u_1"}],
+"id": "1136", "query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri }", "question": "For which games are Sam Loyd and Eric Schiller both famous?"},
+{"answer": "correct", "features": ["compound", "multivar"], "generated_queries":
+  [{"correct": true, "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?u_0}", "target_var": "?u_0"},
+    {"correct": true, "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator>  ?u_0 .<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?u_0", "target_var": "?u_0"},
+     {"correct": false, "query": "<http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?u_1", "target_var": "?u_1"}],
+"id": "1137", "query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/creator> ?uri. <http://dbpedia.org/resource/The_Simpsons> <http://dbpedia.org/ontology/developer> ?uri. }", "question": "Who is the creator and developer of The Simpsons?"}]

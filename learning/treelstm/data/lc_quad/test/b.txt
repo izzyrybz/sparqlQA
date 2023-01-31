@@ -1,0 +1,14 @@
+#ent knownFor ?u_0
+#ent knownFor ?u_0
+?u_0 knownFor ?u_1
+Sam_Loyd knownFor ?u_0 .Eric_Schiller knownFor ?u_0
+?u_1 knownFor ?u_0
+Sam_Loyd knownFor ?u_0 .?u_1 knownFor ?u_0
+Eric_Schiller knownFor ?u_0 .?u_1 knownFor ?u_0
+Sam_Loyd knownFor ?u_0 .Eric_Schiller knownFor ?u_0 .?u_1 knownFor ?u_0
+Sam_Loyd knownFor ?u_1
+Sam_Loyd knownFor ?u_1 .Eric_Schiller knownFor ?u_0
+Sam_Loyd knownFor ?u_1 .?u_0 knownFor ?u_1
+Eric_Schiller knownFor ?u_1
+Sam_Loyd knownFor ?u_0 .Eric_Schiller knownFor ?u_1
+Eric_Schiller knownFor ?u_1 .?u_0 knownFor ?u_1

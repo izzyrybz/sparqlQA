@@ -1,0 +1,8 @@
+advmod amod nsubj aux nmod dobj ROOT punct
+det poss case nsubj ROOT compound attr punct
+det poss case nsubj ROOT compound attr punct
+det poss case nsubj ROOT compound attr punct
+attr ROOT det nsubj poss nsubj relcl prep nmod pobj punct
+attr ROOT det nsubj poss nsubj relcl prep nmod pobj punct
+attr ROOT det nsubj poss nsubj relcl prep nmod pobj punct
+attr ROOT det nsubj prep nmod pobj punct
