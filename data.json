@@ -1,0 +1,1 @@
+[{"_id": "1701", "corrected_question": "How many commits has the user izzyrybz made?", "intermediary_question": "How many <commits> are there whose <author> is <izzyrybz>?", "sparql_query": "SELECT COUNT (DISTINCT ?uri) WHERE {?uri <http://example.com/author> 'izzyrybz '}", "sparql_template_id": 16}]

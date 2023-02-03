@@ -2,6 +2,7 @@ import json
 import requests, json, re, operator
 import sys
 from parser.lc_quad import LC_Qaud
+import urllib.parse
 
 
 def prepare_dataset(ds):
@@ -19,12 +20,11 @@ def ask_query(uri):
 
 def query(q):
     q = q.replace("https://", "http://")
-    payload = (
-        ('query', q),
-        ('format', 'application/json'))
-    #print(payload)
-
-    r = requests.get('http://dbpedia.org/sparql', params=payload)
+    #q = urllib.parse.quote_plus(q)
+    print("THIS IS QUERY:",q)
+    r = requests.get("http://localhost:3030/test4commits/sparql",  params={"query": q})
+    print("past request")
+    print(r.status_code)
     return r.status_code, r.json()
 
 
@@ -38,13 +38,17 @@ def has_answer(t):
 
 if __name__ == "__main__":
 
-    with open('data/LC-QUAD/train-data.json', 'r', encoding='utf-8') as f:
-        train = json.load(f)
+    #with open('data/LC-QUAD/train-data.json', 'r', encoding='utf-8') as f:
+    #    train = json.load(f)
 
     with open('data/LC-QUAD/test-data.json', 'r', encoding='utf-8') as f:
-        test = json.load(f)
+        text = json.load(f)
 
-    data = train + test
+
+    # Load the JSON text into a Python object
+    data = text
+
+    #data = train + test
     print('data len: ', len(data))
 
     #dump everthing in the file

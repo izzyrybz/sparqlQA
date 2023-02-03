@@ -31,6 +31,7 @@ def qg(linker, kb, parser, qapair, force_gold=True):
     h1_threshold = 9999999
 
     # Get Answer from KB online
+    print("this is sparql query", qapair.sparql.query.replace("https", "http"))
     print(kb.query(qapair.sparql.query.replace("https", "http")))
     status, raw_answer_true = kb.query(qapair.sparql.query.replace("https", "http"))
     answerset_true = AnswerSet(raw_answer_true, parser.parse_queryresult)
