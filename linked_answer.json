@@ -1,0 +1,1 @@
+[{"id": "1701", "question": "How many commits has the user izzyrybz made?", "sparql_query": "SELECT COUNT (DISTINCT ?uri) WHERE {?uri <http://example.com/author> 'izzyrybz '}", "answers": {"head": {"vars": [".1"]}, "results": {"bindings": [{".1": {"type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "7"}}]}}}]
