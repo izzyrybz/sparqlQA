@@ -2,7 +2,6 @@ from common.graph.graph import Graph
 from common.query.querybuilder import QueryBuilder
 from parser.lc_quad import LC_Qaud
 from sklearn.model_selection import train_test_split
-
 import os
 import torch.optim as optim
 from learning.treelstm.model import *
@@ -33,6 +32,7 @@ import argparse
 import logging
 import sys
 import os
+import requests
 import itertools
 from collections import Counter
 
@@ -133,11 +133,8 @@ class Orchestrator:
 
     def train_question_classifier(self, file_path=None, test_size=0.2):
         X, y = self.prepare_question_classifier_dataset(self.filepath)
-        print("IN LCQAUSTEST X:",X, "AND Y" ,y)
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=test_size,
                                                                                 random_state=42)
-
-        print(" AFTER IN LCQAUSTEST X:",self.X_train, "AND Y" ,self.y_train)
         return self.question_classifier.train(self.X_train, self.y_train)
 
     def train_double_relation_classifier(self, file_path=None, test_size=0.2):
@@ -205,7 +202,7 @@ class Orchestrator:
             test_loss, test_pred = trainer.test(test_dataset)
             return test_pred
         # except Exception as expt:
-        #     self.logger.error(expt)
+        #     self.logger.something migth be lil off(expt)
         #     return []
 
     def generate_query(self, question, entities, relations, h1_threshold=9999999, question_type=None):
@@ -280,12 +277,23 @@ class Orchestrator:
         logger.info(qapair.sparql)
         logger.info(qapair.question.text)
 
+        #Get answer from Jenna Apache set
+
+        #q = q.replace("https://", "http://")
+        print("THIS IS QUERY:",qapair.sparql.query)
+        r = requests.get("http://localhost:3030/test4commits/sparql",  params={"query": qapair.sparql.query.replace("https", "http")})
+        status, raw_answer_true= r.status_code, r.json()
+        print("past request")
+        print(raw_answer_true)
+        answerset_true = AnswerSet(raw_answer_true, parser.parse_queryresult)
+        qapair.answerset = answerset_true
+
+        '''
+
         # Get Answer from KB online
         status, raw_answer_true = kb.query(qapair.sparql.query.replace("https", "http"))
-        #print(qapair.sparql.query.replace("https", "http"))
         answerset_true = AnswerSet(raw_answer_true, parser.parse_queryresult)
-        #print(answerset_true)
-        qapair.answerset = answerset_true
+        qapair.answerset = answerset_true'''
 
         ask_query = False
         count_query = False
@@ -307,11 +315,11 @@ class Orchestrator:
         question_type = int(question_type)
 
         entities, ontologies = linker.do(qapair, force_gold=force_gold)
+        print(entities, ontologies)
         precision = None
         recall = None
 
         if qapair.answerset is None or len(qapair.answerset) == 0:
-            print(qapair.question.text)
             return "-Not_Applicable", [], question_type, type_confidence, precision, recall
         else:
             if entities is None or ontologies is None:
@@ -423,7 +431,7 @@ class Orchestrator:
                     sparqleq = False
 
                 if answereq != sparqleq:
-                    print("error!")
+                    print("something migth be lil off")
 
                 if answerset == qapair.answerset:
                     correct = True
@@ -450,7 +458,7 @@ class Orchestrator:
                         sparqleq = False
 
                     if answereq != sparqleq:
-                        print("error2")
+                        print("something migth be lil off")
 
                     if answerset == qapair.answerset:
                         correct = True
@@ -491,22 +499,14 @@ class Orchestrator:
                                 sparql = SPARQL(kb.sparql_query(where["where"], target_var, count_query, ask_query),
                                                 ds.parser.parse_sparql)
 
-
-
-                                '''answereq = (answerset is qapair.answerset)
-                                #for answer in answerset:
-                                #    if(answer == qapair.answerset):
-                                #        answereq = True
-                                print("JAG ÄR SÅ JÄLVA KLAR MED DIG ",answerset.split())
-                                print("HUA ",qapair.answerset)
+                                answereq = (answerset == qapair.answerset)
                                 try:
                                     sparqleq = (sparql == qapair.sparql)
                                 except:
                                     sparqleq = False
 
                                 if answereq != sparqleq:
-
-                                    print("error3")'''
+                                    print("something migth be lil off")
 
                                 if len(answerset)>0:
                                     if answerset == qapair.answerset:
@@ -523,14 +523,14 @@ class Orchestrator:
                                         sparql = SPARQL(kb.sparql_query(where["where"], target_var, count_query, ask_query),
                                                         ds.parser.parse_sparql)
 
-                                        '''answereq = (answerset == qapair.answerset)
+                                        answereq = (answerset == qapair.answerset)
                                         try:
                                             sparqleq = (sparql == qapair.sparql)
                                         except:
                                             sparqleq = False
 
                                         if answereq != sparqleq:
-                                            print("error4")'''
+                                            print("something migth be lil off")
 
                                         if answerset == qapair.answerset:
                                             c_answer.append(len(answerset))
@@ -571,7 +571,7 @@ class Orchestrator:
                                     sparqleq = False
 
                                 if answereq != sparqleq:
-                                    print("error5")
+                                    print("something migth be lil off")
 
                                 if len(answerset)>0:
                                     if answerset == qapair.answerset:
@@ -595,7 +595,7 @@ class Orchestrator:
                                             sparqleq = False
 
                                         if answereq != sparqleq:
-                                            print("error6")
+                                            print("something migth be lil off")
 
                                         if answerset == qapair.answerset:
                                             c_answer.append(len(answerset))
@@ -697,10 +697,7 @@ if __name__ == "__main__":
             output_row["type_confidence"] = type_confidence
             output_row["precision"] = precision
             output_row["recall"] = recall
-            
-            print("The result is: ",result, "The answer is ",qapair.answerset)
-
-        logger.info(stats)
+            print("The result is: ",result, "The answer is ",output_row["answer"])
         output.append(output_row)
 
         if stats["total"] % 100 == 0:

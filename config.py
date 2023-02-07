@@ -50,7 +50,7 @@ config = {
             'timeout': 120
         },
         'dbpedia': {
-            'endpoint': 'http://dbpedia.org/sparql',
+            'endpoint': 'http://localhost:3030/dbpedia/query',
             'one_hop_bloom_file': './data/blooms/spo1.bloom',
             'two_hop_bloom_file': './data/blooms/spo2.bloom'
         }
