@@ -1,0 +1,2845 @@
+[
+    {
+        "entities": [
+            {
+                "surface": [
+                    67,
+                    17
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.25595319271087646,
+                        "uri": "http://dbpedia.org/resource/Municipal_council"
+                    }
+                ]
+            }
+        ],
+        "question": "What is the leader name of the settlements whose governing body is Municipal council?",
+        "relations": [
+            {
+                "surface": [
+                    31,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/setting"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/lea"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/binomialAuthority"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/name"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/binomialAuthority"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/names"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/governingBody"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/governingBody"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/governor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/government"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/governor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    49,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/government"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/leader"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/leader"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/leaderName"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/leaderName"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    67,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/municipality"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    67,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/municipality"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    59,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/body"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    74,
+                    12
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.9615384340286255,
+                        "uri": "http://dbpedia.org/resource/Chris_DuBois"
+                    }
+                ]
+            }
+        ],
+        "question": "Name the co-founder of the record labels which have one of the founder as Chris DuBois ?",
+        "relations": [
+            {
+                "surface": [
+                    34,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/label"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/musicalBand"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/foundingPerson"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/foundedBy"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/foundedBy"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/founded"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    63,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/founder"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    63,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/founders"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    63,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/founder"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/musicalArtist"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/musicalBand"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/recordLabel"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/recorded"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/musicalArtist"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/name"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/binomialAuthority"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/name"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/binomialAuthority"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/names"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/recordLabel"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/foundingPerson"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    32,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.4741012156009674,
+                        "uri": "http://dbpedia.org/resource/Australia_national_cricket_team"
+                    }
+                ]
+            }
+        ],
+        "question": "List the companies operating in Australia?",
+        "relations": [
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/company"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/company"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/regionServed"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/regionServed"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/operatedBy"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/operatedBy"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/broadcastNetwork"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/operator"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/operator"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/broadcastNetwork"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/alias"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/alias"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    22,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.28473901748657227,
+                        "uri": "http://dbpedia.org/resource/Coconut"
+                    }
+                ]
+            }
+        ],
+        "question": "In which countries is coconut used as a food ingredient?",
+        "relations": [
+            {
+                "surface": [
+                    22,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/nuts"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/ingredient"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/ingredient"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/country"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/countries"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/country"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/died"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/placeOfDeath"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/deathPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/restingPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    45,
+                    10
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/deathPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/computingInput"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/computingInput"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/used"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    49,
+                    15
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Patr\u00edcia_Amorim"
+                    }
+                ]
+            }
+        ],
+        "question": "How many people have worked for teams chaired by Patricia Amorim?",
+        "relations": [
+            {
+                "surface": [
+                    21,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/occupation"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    38,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/chair"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/team"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/team"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/teams"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    45,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.7807786464691162,
+                        "uri": "http://dbpedia.org/resource/Amiga"
+                    }
+                ]
+            }
+        ],
+        "question": "How many kinds of games can be played on the Amiga?",
+        "relations": [
+            {
+                "surface": [
+                    18,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    18,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/plays"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/plays"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    16,
+                    21
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/The_Buddha_and_His_Dhamma"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    51,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.48670756816864014,
+                        "uri": "http://dbpedia.org/resource/Buddhism"
+                    }
+                ]
+            }
+        ],
+        "question": "Is the book The Buddha and his Dhamma a book about Buddhism?",
+        "relations": [
+            {
+                "surface": [
+                    7,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/book"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    53,
+                    19
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Battle_of_the_Bulge"
+                    }
+                ]
+            }
+        ],
+        "question": "How many relatives are there of people fought in the Battle of the Bulge?",
+        "relations": [
+            {
+                "surface": [
+                    53,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/bats"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    32,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    53,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/battle"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    53,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/battle"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    53,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/battles"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/relation"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/relatives"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/relation"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/relative"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/rels"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/relative"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    43,
+                    14
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Commodore_CDTV"
+                    }
+                ]
+            }
+        ],
+        "question": "How many genres of games can I find on the commodore CDTV?",
+        "relations": [
+            {
+                "surface": [
+                    19,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/literaryGenre"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/literaryGenre"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/genre"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/genre"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    5,
+                    11
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Jevan_Snead"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    25,
+                    11
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.45604997873306274,
+                        "uri": "http://dbpedia.org/resource/Quarterback"
+                    }
+                ]
+            }
+        ],
+        "question": "Does Jevan Snead play as Quarterback?",
+        "relations": [
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/plays"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    17,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/plays"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    46,
+                    11
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Isaac_Hayes"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    26,
+                    15
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Eliza_Schneider"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Give_In_to_Me"
+                    }
+                ]
+            }
+        ],
+        "question": "Give me the sitcoms where Eliza Schneider and Isaac Hayes gave voice?",
+        "relations": [
+            {
+                "surface": [
+                    63,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/voice"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    63,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/voices"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    63,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/voice"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    40,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.28128230571746826,
+                        "uri": "http://dbpedia.org/resource/Ronda"
+                    }
+                ]
+            }
+        ],
+        "question": "Directors of which movies are buried in Ronda?",
+        "relations": [
+            {
+                "surface": [
+                    0,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/director"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/director"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/directors"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/placeOfBurial"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/placeofburial"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/placeOfBurial"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/restingPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    30,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/restingPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/rector"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    0,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/rector"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    55,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.28085801005363464,
+                        "uri": "http://dbpedia.org/resource/Houston"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.23978106677532196,
+                        "uri": "http://dbpedia.org/resource/Baseball"
+                    }
+                ]
+            }
+        ],
+        "question": "List the debut team of the baseball player who born in Houston.",
+        "relations": [
+            {
+                "surface": [
+                    27,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/based"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/debutTeam"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/stateOfOrigin"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/birthPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/birthPlace"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/stateOfOrigin"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/birthYear"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/plays"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/programmeFormat"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/plays"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/instrument"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/debutTeam"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/debutteam"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    27,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/bases"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    15,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/teams"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    15,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/team"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    15,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/team"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/placeOfBirth"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/birthDate"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/born"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/birthDate"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/debut"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    9,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/debut"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    55,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/house"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    55,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/houses"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    55,
+                    7
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/house"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/birthYear"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    75,
+                    15
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/New_Sanno_Hotel"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    19,
+                    36
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    6,
+                    9
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.1064114049077034,
+                        "uri": "http://dbpedia.org/resource/Architect"
+                    }
+                ]
+            }
+        ],
+        "question": "Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'",
+        "relations": [
+            {
+                "surface": [
+                    36,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/station"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    36,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/stations"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    65,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/tenant"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    65,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/tenants"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    65,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/tenant"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    6,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/architect"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    6,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/architect"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    90,
+                    18
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Muslim_Brotherhood"
+                    }
+                ]
+            }
+        ],
+        "question": "Which sects people are part of local political parties which fall under the International Muslim Brotherhood?",
+        "relations": [
+            {
+                "surface": [
+                    31,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/locale"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    31,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/local"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/isPartOf"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/broadcastNetwork"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/commandStructure"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/series"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/mountainRange"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/broadcastNetwork"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/isPartOfMilitaryConflict"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/isPartOf"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/mountainRange"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/partOf"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/series"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/intercommunality"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/range"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/intercommunality"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/commandStructure"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/isPartOfMilitaryConflict"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    76,
+                    12
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/internationally"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    76,
+                    12
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/international"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    76,
+                    12
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/internationally"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    97,
+                    11
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/other"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    97,
+                    11
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/other"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/part"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/part"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/party"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    47,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/party"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    5
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/person"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    23,
+                    3
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/range"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    80,
+                    18
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Google_Web_Toolkit"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    44,
+                    13
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Google_Videos"
+                    }
+                ]
+            }
+        ],
+        "question": "List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?",
+        "relations": [
+            {
+                "surface": [
+                    87,
+                    2
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/web"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    12,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/system"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    62,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/writer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    62,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/writer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/product"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/designer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/product"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/designer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/developer"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    24,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/developer"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "surface": [
+                    20,
+                    8
+                ],
+                "uris": [
+                    {
+                        "confidence": 1.0,
+                        "uri": "http://dbpedia.org/resource/Sam_Loyd"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    33,
+                    13
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.95652174949646,
+                        "uri": "http://dbpedia.org/resource/Eric_Schiller"
+                    }
+                ]
+            }
+        ],
+        "question": "For which games are Sam Loyd and Eric Schiller both famous?",
+        "relations": [
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/fam"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/knownFor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    52,
+                    6
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/knownFor"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    10,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/property/games"
+                    }
+                ]
+            },
+            {
+                "surface": [
+                    10,
+                    4
+                ],
+                "uris": [
+                    {
+                        "confidence": 0.5,
+                        "uri": "http://dbpedia.org/ontology/games"
+                    }
+                ]
+            }
+        ]
+    }
+]
