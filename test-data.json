@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "1701", 
+        "corrected_question": "Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'", 
+        "intermediary_question": "What is the <architect> of the <Marine Corps Air Station Kaneohe Bay> and <tenant> of the <New Sanno Hotel>", 
+        "sparql_query": " SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} ", 
+        "sparql_template_id": 16
+    }, 
+    {
+        "_id": "3293", 
+        "corrected_question": "Which sects people are part of local political parties which fall under the International Muslim Brotherhood?", 
+        "intermediary_question": "What is the <faith> of the <political parties> whose <international> is <Muslim Brotherhood>?", 
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}", 
+        "sparql_template_id": 305
+    }, 
+    {
+        "_id": "2161", 
+        "corrected_question": "List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?", 
+        "intermediary_question": "What is the <developed by> of the <Google Videos> and <written by> of the <Google Web Toolkit>", 
+        "sparql_query": " SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} ", 
+        "sparql_template_id": 16
+    }, 
+    {
+        "_id": "1136", 
+        "corrected_question": "For which games are Sam Loyd and Eric Schiller both famous?", 
+        "intermediary_question": "What is the <known for> of the <Sam Loyd> and <Eric Schiller>", 
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }", 
+        "sparql_template_id": 15
+    }
+]
